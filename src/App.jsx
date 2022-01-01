@@ -27,7 +27,7 @@ function App() {
   };
   
 
-  useEffect(getMeetingAndToken, []);
+  useEffect(()=>{}, []);
   return token && meetingId ? (
     <MeetingProvider
       config={{
